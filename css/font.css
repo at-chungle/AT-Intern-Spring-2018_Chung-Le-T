@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'Myriad Pro Regular';
+  src: url('../fonts/MyriadPro/Myriad Pro Regular.eot');
+  src: url('../fonts/MyriadPro/Myriad Pro Regular.woff2') format('woff2'),
+       url('../fonts/MyriadPro/Myriad Pro Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MyriadPro-Regular';
+  src: url('../fonts/MyriadPro/MyriadPro-Regular.woff') format('woff'),
+       url('../fonts/MyriadPro/MyriadPro-Regular.ttf') format('truetype'),
+       url('../fonts/MyriadPro/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'UTM FacebookR K&T';
+  src: url('../fonts/UTMFacebook/UTM FacebookR K&T.eot');
+  src: url('../fonts/UTMFacebook/UTM FacebookR K&T.woff2') format('woff2'),
+       url('../fonts/UTMFacebook/UTM FacebookR K&T.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: '../fonts/UTMFacebook/UTMFacebookK&T';
+  src: url('../fonts/UTMFacebook/UTMFacebookK&T.woff') format('woff'),
+       url('../fonts/UTMFacebook/UTMFacebookK&T.ttf') format('truetype'),
+       url('../fonts/UTMFacebook/UTMFacebookK&T.svg#UTMFacebookK&T') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'UTM BryantLG';
+  src: url('../fonts/UTMBryantLG/UTM BryantLG.eot');
+  src: url('../fonts/UTMBryantLG/UTM BryantLG.woff2') format('woff2'),
+       url('../fonts/UTMBryantLG/UTM BryantLG.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'UTMBryantLG';
+  src: url('../fonts/UTMBryantLG/UTMBryantLG.woff') format('woff'),
+       url('../fonts/UTMBryantLG/UTMBryantLG.ttf') format('truetype'),
+       url('../fonts/UTMBryantLG/UTMBryantLG.svg#UTMBryantLG') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
