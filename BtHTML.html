@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bài tập HTML</title>
+  <link rel="stylesheet" href="css/reset.css" type="text/css">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="stylesheet" href="css/font.css" type="text/css">
 </head>
 
 <body>
@@ -13,104 +16,121 @@
 
     <div class="header-left">
       <a href="#">
-        <img class="logo" src="images/logo.jpg" alt="img-logo" class="abc">
+        <img class="logo" src="images/logo.png" alt="img-logo" class="abc">
       </a>
     </div>
 
     <div class="header-right">
       <div class="header-right-top">
-        <ul class="list-contact">
-          <li class="item-contact">
-            <img class="img-contact" src="images/icon-phone.png" alt="icon-phone">
-            <p>Customer service
-              <br>
-              <span class="header-contact-phone">1900 6068</span>
+
+        <ul class="contact-list">
+          <li class="contact-item">
+            <div class="contact-item-left">
+                <img class="contact-img" src="images/phone-ic-header.png" alt="icon-phone">
+            </div>
+            <div class="contact-item-right1">
+                <p>Customer service
+                <br>
+                <span class="header-contact-phone">1900 6068</span>
             </p>
+              </div>
+            
+            
 
           </li>
-          <li class="item-contact">
-            <img class="img-contact" src="images/person.jpg" alt="img-person">
-            <p>
-              Taking care of customers overtime
-              <br> Hotel:
-              <span class="header-contact-phone"> 0906 636 171</span>/ Tour:
-              <span class="header-contact-phone"> 0938 238 004</span>
-            </p>
+          <li class="contact-item">
+            <div class="contact-item-left">
+                <img class="contact-img" src="images/social-ic-header.png" alt="img-person">
+            </div>
+            <div class="contact-item-right2">
+                <p>
+                    Taking care of customers overtime <br>
+                     Hotel:
+                    <span class="header-contact-phone"> 0906 636 171</span>/ Tour:
+                    <span class="header-contact-phone"> 0938 238 004</span>
+                </p>
+            </div>
+            
+            
           </li>
         </ul>
       </div>
+      
       <div class="header-right-bottom">
         <nav>
-          <ul>
-            <li>HOME</li>
-            <li>ABOUT HADATOUR</li>
-            <li>TOUR</li>
-            <li>HOTLE</li>
-            <li>RENTAL VEHICLES</li>
-            <li>AIR TECKET</li>
-            <li>NEWS</li>
-            <li>CONTACT</li>
+          <ul class="nav-list">
+            <li class="nav-item">home</li>
+            <li class="nav-item">about hadatour</li>
+            <li class="nav-item">tour</li>
+            <li class="nav-item">hotel</li>
+            <li class="nav-item">rental vehicles</li>
+            <li class="nav-item">air ticket</li>
+            <li class="nav-item">news</li>
+            <li class="nav-item">contact</li>
           </ul>
         </nav>
       </div>
     </div>
-
   </header>
-  <main class="page-main">
 
-    <section class="section-bgr">
-      <img class="section-bgr-img" src="images/background.png" alt="background">
-      <h1>TOUR DU LỊCH PHỐ CỔ HỘI AN</h1>
-      <p>THAM QUAN MUA SẮM CÙNG HƯỚNG DẪN VIÊN CHUYÊN NGHIỆP</p>
-      <button>XEM TOUR</button>
-      <button>CHI TIẾT</button>
-    </section>
+  <main class="page-main">
+    <div class="section-bgr">
+      <h1 class="bgr-title">tour du lịch phố cổ hội an</h1>
+      <p class="bgr-des">tham quan mua sắm cùng hướng dẫn viên chuyên nghiệp</p>
+      <div class="des-list">
+          <button class="des-item">xem tour</button>
+          <button class="des-item">chi tiết</button>
+      </div>
+      
+    </div>
 
     <section class="section-destination">
+      <div class="destination-title">
       <h3>INTERESTING DESTINATION</h3>
-      <button>
+      <button class="btn-view">
         VIEW MORE >
       </button>
+    </div>
       <div class="section-destination-content">
-        <ul>
-          
-          <li class="list-content">
-            <div class="list-content-top">
-              <img class="list-content-top-img" src="images/japan_china.jpg" alt="japan_china">
+
+        <ul class="content-list">
+          <li class="content-item">
+            <div class="content-item-top">
+              <img class="content-item-top-img" src="images/single-tour-1.jpg" alt="japan_china">
             </div>
-            <div class="list-content-bottom">
+            <div class="content-item-bottom">
               <h5>JAPAN-CHINA</h5>
-              <p>Price: 5.350.000$</p>
+              <p>Price: <span>  5.350.000$</span> </p>
             </div>
           </li>
 
-          <li class="list-content">
-            <div class="list-content-top">
-              <img class="list-content-top-img" src="images/thailand.jpg" alt="thailand">
+          <li class="content-item">
+            <div class="content-item-top">
+              <img class="content-item-top-img" src="images/single-tour-2.jpg" alt="thailand">
             </div>
-            <div class="list-content-bottom">
+            <div class="content-item-bottom">
               <h5>THAILAND-CAMPUCHIA</h5>
-              <p>Price: 5.350.000$</p>
+              <p>Price:<span> 5.350.000$</span> </p>
             </div>
           </li>
 
-          <li class="list-content">
-            <div class="list-content-top">
-              <img class="list-content-top-img" src="images/Korean.jpg" alt="Korean">
+          <li class="content-item">
+            <div class="content-item-top">
+              <img class="content-item-top-img" src="images/single-tour-3.jpg" alt="Korean">
             </div>
-            <div class="list-content-bottom">
+            <div class="content-item-bottom">
               <h5>KOREAN</h5>
-              <p>Price: 5.350.000$</p>
+              <p>Price:<span> 5.350.000$</span> </p>
             </div>
           </li>
 
-          <li class="list-content">
-            <div class="list-content-top">
-              <img class="list-content-top-img" src="images/Autralia.jpg" alt="Autralia">
+          <li class="content-item">
+            <div class="content-item-top">
+              <img class="content-item-top-img" src="images/single-tour-4.jpg" alt="Autralia">
             </div>
-            <div class="list-content-bottom">
+            <div class="content-item-bottom">
               <h5>AUSTRALIA-PHILIPPINES</h5>
-              <p>Price: 5.350.000$</p>
+              <p>Price:<span> 5.350.000$</span>  </p>
             </div>
           </li>
 
@@ -119,237 +139,272 @@
     </section>
 
     <section class="section-search">
-      <div class="section-search-left">
-        <img class="img-logo" src="images/logo.jpg" alt="logo">
-      </div>
-      <div class="section-search-right">
-        <div class="section-search-right-top">
-          <ul>
-            <li class="list-search">
-              <h2>SEARCH TOUR</h2>
-              <p>LET'S CHOOSE A DESTINATION</p>
-            </li>
-            <li class="list-search">
-              <h2>SEARCH HOTEL</h2>
-              <p>CHOOSE THE HOTEL THAT FITS YOUR NEEDS</p>
-            </li>
-          </ul>
+      <div class="container">
+        <div class="search-logo">
+          <img src="images/logo.png" alt="images">
         </div>
-        <div class="section-search-right-bottom">
-          <form action="">
-            <input type="text" placeholder="Location">
-            <input type="text" placeholder="Length">
-            <input type="text" placeholder="Price"> |
-            <input type="submit" value="Search">
-          </form>
+        <div class="search-group">
+          <div class="search-list tabs-list">
+            <input id="tab1" type="radio" name="tabs" checked>
+            <label for="tab1">Search Tour
+              <p class="sub-title">let's choose a destination</p>
+            </label>
+            <input id="tab2" type="radio" name="tabs">
+            <label for="tab2">Search Hotel
+              <p class="sub-title">Choose the hotel that fits your needs</p>
+            </label>
+      
+            <section id="content1" class="tab-css-search">
+              <form class="search-form tab-content">
+                <input type="text" name="location" placeholder="Location">
+                <input type="text" name="length" placeholder="Length">
+                <input type="text" name="price" placeholder="Price"> 
+                <button class="btn-search" type="submit"><img src="images/search-ic.png" alt="image">&nbsp;Search</button> 
+              </form>
+            </section> 
+            
+            <section id="content2" class="tab-css-search">
+              <form class="search-form tab-content" id="content2">
+                <input type="text" name="location" placeholder="Location">
+                <input type="text" name="length" placeholder="Length">
+                <input type="text" name="price" placeholder="Price"> 
+                <button class="btn-search" type="submit"><img src="images/search-ic.png" alt="image">&nbsp;Search</button>
+              </form>
+            </section>
+          </div>
         </div>
       </div>
     </section>
 
     <section class="section-tours">
-      <ul>
-        <li class="list-section-tours">
-          <h4>OVERSEAS TOURS</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipicising
-            <br> elit,sed do eiusmod tempor incididunt ut labore et
-            <br> dolore magna aliqua</p>
-          <img class="img-tours" src="images/Tour_lao.jpg" alt="Tour_lao">
-          <div class="intro-tours">
+      <ul class="tours-list">
+        <li class="tours-item">
+          <div class="content-tours">
+              <h4>OVERSEAS TOURS</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipicising
+                <br> elit,sed do eiusmod tempor incididunt ut labore et
+                <br> dolore magna aliqua</p>
+          </div>
+          <div class="intro-tours1">
             <div class="intro-tours-left">
-                <img class="img-icon-tours" src="images/icon-coconut.png" alt="icon-coconut">
+                <img class="img-icon-tours" src="images/small-ic.png" alt="icon-coconut">
+            </div>
+            <div class="intro-tours-right">
                 <h5>Tour Lao.Thailand</h5>
-                <p>2 days 3 nights</p>
-            </div>
-            <div class="intro-tours-right">
-                <p>4.500.000 $</p>
+                <p>2 days 3 nights
+                <span class="price-tour">4.500.000 $</span> </p>
             </div>
           </div>
-          <img class="img-tours-small" src="images/tour asian.jpg" alt="tour asian">
-          <div class="intro-tours">
+
+          <div class="intro-tours2">
             <div class="intro-tours-left">
-                <img class="img-icon-tours" src="images/icon-coconut.png" alt="icon-coconut">
+                <img class="img-icon-tours" src="images/small-ic.png" alt="icon-coconut">
+            </div>
+            <div class="intro-tours-right">
                 <h5>Tour Asian</h5>
-                <p>2 days 3 nights</p>
-            </div>
-            <div class="intro-tours-right">
-                <p>4.500.000 $</p>
+                <p>2 days 3 nights
+                <span class="price-tour">4.500.000 $</span> </p>
             </div>
           </div>
-          <img class="img-tours-small" src="images/tour erope.jpg" alt="tour erope">
-          <div class="intro-tours">
+        
+          <div class="intro-tours3">
             <div class="intro-tours-left">
-                <img class="img-icon-tours" src="images/icon-coconut.png" alt="icon-coconut">
+                <img class="img-icon-tours" src="images/small-ic.png" alt="icon-coconut">
+               
+            </div>
+            <div class="intro-tours-right">
                 <h5>Tour Europe</h5>
-                <p>2 days 3 nights</p>
-            </div>
-            <div class="intro-tours-right">
-                <p>4.500.000 $</p>
+                <p>2 days 3 nights
+                <span class="price-tour">4.500.000 $</span> </p>
             </div>
           </div>
+          <div class="orther-tour">
           <a href="#">Orther Tour</a>
+          <img src="images/foward-ic.png" alt="icon ..">
+        </div>
         </li>
 
-        <li class="list-section-tours">
-          <h4>DOMESTIC TOURS</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipicising
-            <br> elit,sed do eiusmod tempor incididunt ut labore et
-            <br> dolore magna aliqua</p>
-          <img class="img-tours" src="images/tour lao_thailand.jpg" alt="tour lao_thailand">
-          <div class="intro-tours">
-            <div class="intro-tours-left">
-                <img class="img-icon-tours" src="images/icon-coconut.png" alt="icon-coconut">
-                <h5>Tour Lao.Thailand</h5>
-                <p>2 days 3 nights</p>
+        <li class="tours-item">
+            <div class="content-tours">
+                <h4>DOMESTIC TOURS</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipicising
+                  <br> elit,sed do eiusmod tempor incididunt ut labore et
+                  <br> dolore magna aliqua</p>
             </div>
-            <div class="intro-tours-right">
-                <p>4.500.000 $</p>
+            <div class="intro-tours4">
+              <div class="intro-tours-left">
+                  <img class="img-icon-tours" src="images/small-ic.png" alt="icon-coconut">
+              </div>
+              <div class="intro-tours-right">
+                  <h5>Tour Lao.Thailand</h5>
+                  <p>2 days 3 nights
+                  <span class="price-tour">4.500.000 $</span> </p>
+              </div>
             </div>
-            
-          </div>
-          <img class="img-tours-small" src="images/tour asian1.jpg" alt="tour asian1">
-          <div class="intro-tours">
-            <div class="intro-tours-left">
-                <img class="img-icon-tours" src="images/icon-coconut.png" alt="icon-coconut">
-                <h5>Tour Asian</h5>
-                <span>2 days 3 nights</span>
+  
+            <div class="intro-tours5">
+              <div class="intro-tours-left">
+                  <img class="img-icon-tours" src="images/small-ic.png" alt="icon-coconut">
+              </div>
+              <div class="intro-tours-right">
+                  <h5>Tour Asian</h5>
+                  <p>2 days 3 nights
+                  <span class="price-tour">4.500.000 $</span> </p>
+              </div>
             </div>
-            <div class="intro-tours-right">
-                <p>4.500.000 $</p>
+          
+            <div class="intro-tours6">
+              <div class="intro-tours-left">
+                  <img class="img-icon-tours" src="images/small-ic.png" alt="icon-coconut">
+                 
+              </div>
+              <div class="intro-tours-right">
+                  <h5>Tour Europe</h5>
+                  <p>2 days 3 nights
+                  <span class="price-tour">4.500.000 $</span> </p>
+              </div>
             </div>
-          </div>
-          <img class="img-tours-small" src="images/tour lao_thailand1.jpg" alt="tour lao_thailand1">
-          <div class="intro-tours">
-            <div class="intro-tours-left">
-                <img class="img-icon-tours" src="images/icon-coconut.png" alt="icon-coconut">
-                <h5>Tour Lao.Thailand</h5>
-                <p>2 days 3 nights</p>
+    
+            <div class="orther-tour">
+              <a href="#">Orther Tour</a>
+              <img src="images/foward-ic.png" alt="icon ..">
             </div>
-            <div class="intro-tours-right">
-                <p>4.500.000 $</p>
-            </div>
-          </div>
-          <a href="#">Orther Tour</a>
-        </li>
+          </li>
 
-        <li class="list-section-tours">
-          <h4>HOTEL TOURS</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipicising
-            <br> elit,sed do eiusmod tempor incididunt ut labore et
-            <br> dolore magna aliqua</p>
-          <img class="img-tours" src="images/novotel.jpg" alt="novotel">
-          <div class="intro-tours">
-            <div class="intro-tours-left">
-                <img class="img-icon-tours" src="images/icon-coconut.png" alt="icon-coconut">
-                <h5>Hotel Novotel</h5>
-                <img class="img-icon-rate" src="images/icon rate.jpg" alt="icon rate">
+
+          <li class="tours-item">
+            <div class="content-tours">
+                <h4>HOTELS</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipicising
+                  <br> elit,sed do eiusmod tempor incididunt ut labore et
+                  <br> dolore magna aliqua</p>
             </div>
-            <div class="intro-tours-right">
-                <p>4.500.000 $</p>
+            <div class="intro-tours7">
+              <div class="intro-tours-left">
+                  <img class="img-icon-tours" src="images/small-ic.png" alt="icon-coconut">
+              </div>
+              <div class="intro-tours-right">
+                  <h5>Tour Lao.Thailand</h5>
+                  <img src="images/star-icon.png" alt="">
+              </div>
             </div>
-          </div>
-          <img class="img-tours-small" src="images/hotel sea.jpg" alt="hotel sea">
-          <div class="intro-tours">
-            <div class="intro-tours-left">
-                <img class="img-icon-tours" src="images/icon-coconut.png" alt="icon-coconut">
-                <h5>Hotel Sea Phoenix</h5>
-                <img class="img-icon-rate" src="images/icon rate.jpg" alt="icon rate">
+  
+            <div class="intro-tours8">
+              <div class="intro-tours-left">
+                  <img class="img-icon-tours" src="images/small-ic.png" alt="icon-coconut">
+              </div>
+              <div class="intro-tours-right">
+                  <h5>Tour Asian</h5>
+                  <img src="images/star-icon.png" alt="">
+              </div>
             </div>
-            <div class="intro-tours-right">
-                <p>4.500.000 $</p>
+          
+            <div class="intro-tours9">
+              <div class="intro-tours-left">
+                  <img class="img-icon-tours" src="images/small-ic.png" alt="icon-coconut">
+                 
+              </div>
+              <div class="intro-tours-right">
+                  <h5>Tour Europe</h5>
+                  <img src="images/star-icon.png" alt="">
+              </div>
             </div>
-          </div>
-          <img class="img-tours-small" src="images/hotel alacarte.jpg" alt="hotel alacarte">
-          <div class="intro-tours">
-            <div class="intro-tours-left">
-                <img class="img-icon-tours" src="images/icon-coconut.png" alt="icon-coconut">
-                <h5>Hotel A La Carte</h5>
-                <img class="img-icon-rate" src="images/icon rate.jpg" alt="icon rate">
+    
+            <div class="orther-tour">
+              <a href="#">Orther Tour</a>
+              <img src="images/foward-ic.png" alt="icon ..">
             </div>
-            <div class="intro-tours-right">
-                <p>4.500.000 $</p>
-            </div>
-           
-          </div>
-          <a href="#">Orther Tour</a>
-        </li>
+          </li>
+
       </ul>
     </section>
 
+
     <section class="section-support">
-      <img class="bgr-support" src="images/Untitled-1.jpg" alt="Untitled">
-      <h2>SUPPORT ONLINE</h2>
+    
+      <h2>support online</h2>
       <div class="section-support-book">
-        <ul>
-          <li class="list-book">
+        <ul class="list-book">
+          <li class="item-book">
             <h3 class="title-book">BOOK TOUR</h3>
-            <img class="img-book" src="images/icon-support-phone.png" alt="icon-support-phone">
-            <img class="img-book" src="images/icon-support.png" alt="icon-support">
+            <div class="list-img-book">
+            <img class="item-img-book" src="images/phone-ic.png" alt="icon-support-phone">
+            <img class="item-img-book" src="images/skype-ic.png" alt="icon-support">
+          </div>
           </li>
-          <li class="list-book">
+          <li class="item-book">
             <h3 class="title-book">BOOK HOTEL</h3>
-            <img class="img-book" src="images/icon-support-phone.png" alt="icon-support-phone">
-            <img class="img-book" src="images/icon-support.png" alt="icon-support">
+            <div class="list-img-book">
+            <a href=""><img class="item-img-book" src="images/phone-ic.png" alt="icon-support-phone"></a>
+            <a href=""><img class="item-img-book" src="images/skype-ic.png" alt="icon-support"></a>
+          </div>
           </li>
-          <li class="list-book">
+          <li class="item-book">
             <h3 class="title-book">BOOK VEHICEL</h3>
-            <img class="img-book" src="images/icon-support-phone.png" alt="icon-support-phone">
-            <img class="img-book" src="images/icon-support.png" alt="icon-support">
+            <div class="list-img-book">
+            <a href=""><img class="item-img-book" src="images/phone-ic.png" alt="icon-support-phone"></a>
+            <a href=""><img class="item-img-book" src="images/skype-ic.png" alt="icon-support"></a>
+          </div>
           </li>
-          <li class="list-book">
+          <li class="item-book">
             <h3 class="title-book">BOOK AIR TICKET</h3>
-            <img class="img-book" src="images/icon-support-phone.png" alt="icon-support-phone">
-            <img class="img-book" src="images/icon-support.png" alt="icon-support">
+            <div class="list-img-book">
+            <a href=""><img class="item-img-book" src="images/phone-ic.png" alt="icon-support-phone"></a>
+            <a href=""><img class="item-img-book" src="images/skype-ic.png" alt="icon-support"></a>
+          </div>
           </li>
         </ul>
       </div>
     </section>
 
     <section class="section-activities">
+      <div class="title-activities">
       <h3>ACTIVITY IMAGES</h3>
-      <button>VIEW MORE</button>
-      <ul>
-        <li class="list-activities">
-          <div class="list-activities-top">
-              <img class="img-activities" src="images/tour australia.jpg" alt="tour australia">
+      <button class="btn-view">VIEW MORE ></button>
+    </div>
+      <ul class="list-activities">
+        <li class="item-activities">
+          <div class="item-activities-top">
+              <img class="img-activities" src="images/activity-1.jpg" alt="tour australia">
               <h5>Tour Australia - Group
               <br> activities</h5>
           </div>
-          <div class="list-activities-bottom">
+          <div class="item-activities-bottom">
               <span>3 days 2 nights</span>
-              <span>25/08/2015</span>
+              <span class="day-active">25/08/2015</span>
           </div>
         </li>
-        <li class="list-activities">
-          <div class="list-activities-top">
-            <img class="img-activities" src="images/tour australia1.jpg" alt="tour australia1">
+        <li class="item-activities">
+          <div class="item-activities-top">
+            <img class="img-activities" src="images/activity-2.jpg" alt="tour australia1">
             <h5>Tour Australia - Group
               <br> activities</h5>
           </div>
-          <div class="list-activities-bottom">
+          <div class="item-activities-bottom">
             <span>3 days 2 nights</span>
-            <span>25/08/2015</span>
+            <span class="day-active">25/08/2015</span>
           </div>
         </li>
-        <li class="list-activities">
-          <div class="list-activities-top">
-              <img class="img-activities" src="images/activities3.jpg" alt="activities3">
+        <li class="item-activities">
+          <div class="item-activities-top">
+              <img class="img-activities" src="images/activity-3.jpg" alt="activities3">
               <h5>Tour Australia - Group
                 <br> activities</h5>
           </div>
-         <div class="list-activities-bottom">
+         <div class="item-activities-bottom">
             <span>3 days 2 nights</span>
-            <span>25/08/2015</span>
+            <span class="day-active" >25/08/2015</span>
          </div>
         </li>
-        <li class="list-activities">
-          <div class="list-activities-top">
-            <img class="img-activities" src="images/australia3.jpg" alt="australia3">
+        <li class="item-activities">
+          <div class="item-activities-top">
+            <img class="img-activities" src="images/activity-4.jpg" alt="australia3">
             <h5>Tour Australia - Group
             <br> activities</h5>
           </div>
-          <div class="list-activities-bottom">
+          <div class="item-activities-bottom">
             <span>3 days 2 nights</span>
-            <span>25/08/2015</span>
+            <span class="day-active">25/08/2015</span>
           </div>
         </li>
       </ul>
@@ -357,80 +412,84 @@
   </main>
   
   <footer>
+
     <div class="footer-top">
       <div class="footer-top-img">
-          <img class="img" src="images/logo.jpg" alt="logo"> 
+          <img class="img" src="images/logo.png" alt="logo"> 
       </div>
      <div class="footer-info">
         <h5 class="title-info">INFOMATION</h5>
-        <ul>
-          <li>
+        <ul class="list-info">
+          <li class="item-info">
             <a href="#">About HadaTour</a>
           </li>
-          <li>
+          <li class="item-info">
             <a href="#">Contact Infomation</a>
           </li>
-          <li>
+          <li class="item-info">
             <a href="#">Terms of membership</a>
           </li>
-          <li>
+          <li class="item-info">
             <a href="#">Payment methods</a>
           </li>
-          <li>
+          <li class="item-info">
             <a href="#">Recruitment</a>
           </li>
         </ul>
      </div>
+
      <div class="footer-social">
-      <h5 class="social">SOCIAL</h5>
-      <ul>
-        <li>
+      <h5 class="title-social">SOCIAL</h5>
+      <ul class="list-social">
+        <li class="item-social">
           <a class="footer-social-img" href="#">
-            <img class="social-img" src="images/icon fb.jpg" alt="icon fb.jpg">
+            <img class="social-img" src="images/fb-ic.png" alt="icon fb.jpg">
           </a>
-          <h6>
-             <a href="#">Facebook</a>
-          </h6>
+         
+             <a href="#">
+               <h6>Facebook</h6>
+              </a>
+         
         </li>
-        <li>
+        <li class="item-social">
           <a class="footer-social-img" href="#">
-            <img class="social-img" src="images/icon google.jpg" alt="icon google">
+            <img class="social-img" src="images/gg-ic.png" alt="icon google">
           </a>
-          <h6>
-              <a href="#">Google+</a>
-          </h6>
+              <a href="#">
+                <h6>Google+</h6>
+              </a>
         </li>
-        <li>
+        <li class="item-social">
           <a class="footer-social-img" href="#">
-            <img class="social-img" src="images/twitter.jpg" alt="twitter">
+            <img class="social-img" src="images/twitter-ic.png" alt="twitter">
           </a>
-          <h6>
-            <a href="#">Twitler</a>
-          </h6>
+          
+            <a href="#"><h6>Twitler</h6></a>
+          
         </li>
-        <li>
+        <li class="item-social">
           <a class="footer-social-img" href="#">
-            <img class="social-img" src="images/icon-youtube.png" alt="icon-youtube">
+            <img class="social-img" src="images/youtube-ic.png" alt="icon-youtube">
           </a>
-          <h6>
-            <a href="#">Youtube</a>
-          </h6>
+         
+            <a href="#"> <h6>Youtube</h6></a>
+          
         </li>
       </ul>
      </div>
-     <div class="footer-form">
-       <p>Enter Email to get news from HadaTour</p>
-       <input type="text" placeholder="Please enter email here">
-       <img class="footer-form-img" src="images/mail.png" alt="mail">
-     </div>
+
+      <div class="footer-form">
+        <p>Enter Email to get news from HadaTour</p>
+        <input type="text" placeholder="Please enter email here">
+        <img src="images/mail-ic.png" alt="mail-ic">
+        
+      </div>
+
     </div>
+
     <div class="footer-bottom">
-      <div class="footer-bottom-left">
-        <p> &copy; 2018 - Coppyright belong to HadaTour</p>
-      </div>
-      <div class="footer-bottom-rigth">
-        <p>Design by <span class="design-footer">HadaTour.com</span></p>
-      </div>
+        <p class="footer-bottom-des des1"> &copy; 2018 - Coppyright belong to HadaTour</p>
+        <p class="footer-bottom-des des2">Design by <span class="design-footer">HadaTour.com</span></p>
     </div>
   </footer>
 </body>
